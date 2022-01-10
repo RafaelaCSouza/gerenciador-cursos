@@ -1,0 +1,17 @@
+{
+    "autoload": {
+        "psr-4": {
+            "Alura\\Cursos\\": "src/"
+        }
+    },
+    "require": {
+        "doctrine/orm": "^2.6",
+        "squizlabs/php_codesniffer": "*",
+        "symfony/cache": "^5.4"
+    },
+    "config": {
+        "allow-plugins": {
+            "composer/package-versions-deprecated": true
+        }
+    }
+}
